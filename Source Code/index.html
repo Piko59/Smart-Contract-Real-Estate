@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate Trading Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Real Estate Trading Platform</h1>
+    <p id="walletStatus"></p>
+    <button id="connectWalletButton">Connect Wallet</button>
+    <h2>Add Listing</h2>
+    <form id="addPropertyForm">
+        <input type="text" id="description" placeholder="Listing description" required>
+        <input type="number" id="price" placeholder="Price (ETH)" required>
+        <button type="submit">Add Listing</button>
+    </form>
+    <div id="propertiesList"></div>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
